@@ -1,4 +1,4 @@
-output "address" {
-  value = "${aws_elb.web.dns_name}"
-  description = "URL of the Artifactory "
+output "id" {
+  value = "${aws_security_group.this.id}"
+  description = "SG ID "
 }
